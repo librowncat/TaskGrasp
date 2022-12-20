@@ -32,7 +32,9 @@ git clone https://github.com/adithyamurali/TaskGrasp.git
 ```
 3) Install dependencies
 ```shell
+sudo apt-get install graphviz graphviz-dev
 cd TaskGrasp
+# TODO: change pytorch and cuda version
 conda install pytorch=1.4.0 torchvision cudatoolkit=10.0 -c pytorch
 pip install -r requirements.txt
 ```
